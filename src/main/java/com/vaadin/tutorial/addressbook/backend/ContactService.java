@@ -16,11 +16,11 @@ import java.util.logging.Logger;
 public class ContactService {
 
     // Create dummy data by randomly combining first and last names
-    static String[] fnames = { "Manogari", "Hendrik", "Galih", "Sihab", "Kampret",
+    static String[] fnames = { "Resha.yudiatama", "Muhamad.hasan", "Galih", "Sihab", "Kampret",
             "Wasis", "Botak", "Yosua", "Danu", "Ayu", "Asdin", "Kamto", "Vannesa",
             "Iman", "Kuna", "Lulu", "Irfan", "Dimas", "Karyo",
             "Jennifer" };
-    static String[] lnames = { "Smith", "Johnson", "Williams", "Jones",
+    static String[] lnames = { "iconpln", "iconpln", "Williams", "Jones",
             "Brown", "Davis", "Miller", "Wilson", "Moore", "Taylor",
             "Anderson", "Thomas", "Jackson", "White", "Harris", "Martin",
             "Thompson", "Young", "King", "Robinson" };
@@ -39,7 +39,7 @@ public class ContactService {
                 contact.setFirstName(fnames[r.nextInt(fnames.length)]);
                 contact.setLastName(lnames[r.nextInt(fnames.length)]);
                 contact.setEmail(contact.getFirstName().toLowerCase() + "@"
-                        + contact.getLastName().toLowerCase() + ".com");
+                        + contact.getLastName().toLowerCase() + ".co.id");
                 contact.setPhone("+ 358 555 " + (100 + r.nextInt(900)));
                 cal.set(1930 + r.nextInt(70),
                         r.nextInt(11), r.nextInt(28));
