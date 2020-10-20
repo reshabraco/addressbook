@@ -20,7 +20,7 @@ public class ContactService {
             "Wasis", "Botak", "Yosua", "Danu", "Ayu", "Asdin", "Kamto", "sukim",
             "Iman", "Kuna", "Lulu", "Irfan", "Dimas", "Karyo",
             "Jennifer" };
-    static String[] lnames = { "iconpln", "iconpln", "Williams", "Jones",
+    static String[] lnames = { "iconpln", "iconpln232", "Williams", "Jones",
             "Brown", "Davis", "Miller", "Wilson", "Moore", "Taylor",
             "Anderson", "Thomas", "Jackson", "White", "Harris", "Martin",
             "Thompson", "Young", "King", "Robinson" };
